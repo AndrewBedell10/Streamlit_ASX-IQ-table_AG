@@ -17,7 +17,7 @@ st.set_page_config(
 st.title("📊 ASX")
 
 # Load the Excel file into a DataFrame
-file_path = os.path.join(cwd, "data.xlsx") 
+file_path = os.path.join(cwd, "ASX 2023Q4 (Dec23).xlsx") 
 df = pd.read_excel(file_path)
 
 
